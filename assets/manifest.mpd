@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" type="static" mediaPresentationDuration="PT8M46.26S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
-<BaseURL>https://bitmovin-amer-public.s3.amazonaws.com/internal/dani/Wed_Apr_21_17%3A48%3A00_EDT_2021/</BaseURL>
   <Period id="9cce30bf-3ced-4119-b561-182f4ee1e003"
     duration = "P0Y0M0DT0H4M23.13S">
     <AdaptationSet mimeType="text/vtt" lang="en"> 
@@ -9,11 +8,13 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+      <BaseURL>https://bitmovin-amer-public.s3.amazonaws.com/internal/dani/Wed_Apr_21_17%3A48%3A00_EDT_2021/</BaseURL>
       <Representation id="2ca97d49-17fb-4486-a988-f6292af22ea4" width="1024" height="576" frameRate="23976/1000" bandwidth="450000" codecs="avc1.4D401F">
         <SegmentTemplate duration="96096" timescale="24000" media="h264_360_450000/fmp4/segment_$Number$.m4s" initialization="h264_360_450000/fmp4/init.mp4" startNumber="0"/>
       </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" lang="en">
+      <BaseURL>https://bitmovin-amer-public.s3.amazonaws.com/internal/dani/Wed_Apr_21_17%3A48%3A00_EDT_2021/</BaseURL>
       <Representation id="10772349-3c83-443a-bafc-ea4e7b7d8f1f" bandwidth="128000" audioSamplingRate="44100" codecs="mp4a.40.2">
         <SegmentTemplate duration="176400" timescale="44100" media="aac_16000/fmp4/segment_$Number$.m4s" initialization="aac_16000/fmp4/init.mp4" startNumber="0"/>
       </Representation>
@@ -27,11 +28,13 @@
       </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+      <BaseURL>https://bitmovin-amer-public.s3.amazonaws.com/internal/dani/Wed_Apr_21_17%3A48%3A00_EDT_2021/</BaseURL>
       <Representation id="2ca97d49-17fb-4486-a988-f6292af27fff" width="1024" height="576" frameRate="23976/1000" bandwidth="450000" codecs="avc1.4D401F">
         <SegmentTemplate duration="96096" timescale="24000" media="h264_360_450000/fmp4/segment_$Number$.m4s" initialization="h264_360_450000/fmp4/init.mp4" startNumber="0"/>
       </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" lang="en">
+      <BaseURL>https://bitmovin-amer-public.s3.amazonaws.com/internal/dani/Wed_Apr_21_17%3A48%3A00_EDT_2021/</BaseURL>
       <Representation id="10772349-3c83-443a-bafc-ea4e7b7d7fff" bandwidth="128000" audioSamplingRate="44100" codecs="mp4a.40.2">
         <SegmentTemplate duration="176400" timescale="44100" media="aac_16000/fmp4/segment_$Number$.m4s" initialization="aac_16000/fmp4/init.mp4" startNumber="0"/>
       </Representation>
